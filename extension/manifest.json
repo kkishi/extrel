@@ -1,0 +1,14 @@
+{
+  "name" : "extrel",
+  "version" : "0.1",
+  "description" : "One click extension reloader",
+  "homepage_url" : "http://d.hatena.ne.jp/kkishi/",
+  "browser_action" : {
+    "default_icon" : "extrel.png"
+  },
+  "permissions" : [
+    "management",
+    "tabs"
+  ],
+  "background_page" : "background.html"
+}
